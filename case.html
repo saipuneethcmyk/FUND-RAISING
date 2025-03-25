@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fundraising Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+             background-color: rgb(211, 211, 211);
+        }
+
+        header {
+            background-color: rgba(255, 0, 200, 0.285);
+            padding: 25px;
+            text-align: center;
+        }
+
+        .container { 
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .kids, .SeniorCitizens  {
+            display: inline-block;
+            width: 350px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px;
+            text-align: center;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .kids img, .SeniorCitizens img            {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .kids p {
+            font-size: 16px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        button {
+            background-color: rgba(0, 206, 209, 0.8);
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgba(0, 206, 209, 1);
+        }
+        .kids:hover, .SeniorCitizens:hover {
+            transform: scale(1.05);
+        }
+       
+        .SeniorCitizens img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background-color: #333333e2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+       .donate:hover {
+        transform:scale(0.85)
+
+       }
+    </style>
+    <script>
+        function scanner() {
+            alert("Thank you for your generous donation Them  " );
+        } 
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Fundraising Platform</h1>
+    </header>
+    <marquee direction="right " bgcolor=" pink">"A small act of kindness can make a big impact. Donate now!"  </marquee>
+
+    <div class="container">
+        <h3 style="color:rgb(0, 21, 128)">Orphans</h3>
+
+        <div class="kids">
+            <img src="https://imgs.search.brave.com/h53uKuPIX2kYLDkQSiZMegmJz1e6BONMhtjCo7QBw60/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3LzM3LzUxLzAy/LzM2MF9GXzczNzUx/MDIzNV9YMzJ3aEFP/RERWaXFVYjZCWEdR/a3djRmFVYVdkWUZi/bC5qcGc" alt="Orphan Children">
+            <p>  The smallest act of <br>kindness is worth more than<br>  the grandest intention. </p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="kids">
+            <img src="https://imgs.search.brave.com/Q2SvtG3cRoSMdLUPZnAgVN2UJ2Bs-d6spsxy8vwBNHY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcy/NzY2NjU1L3Bob3Rv/L2EtbG9zdC1pbi10/aW1lLWNvbmNlcHQt/aW1hZ2Utb2YtdHdv/LWNoaWxkcmVuLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz0x/ZVNuYjdLM3ZmWEEz/ajcyVzA1SGJKOXAx/T2s3ajNLei03VXdw/cXhMY0lRPQ" alt="Homeless Children">
+            <p>Millions of children are homeless and in need of care. Help us provide them with a safe place to stay.</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="kids">
+            <img src="https://imgs.search.brave.com/mW1MOgEzPJEeLVY1YYeYswgvX1Bgz8FURCTSfWENXmY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzEzLzkz/LzAyLzEzOTMwMjBj/ZGQ3NDg2Mzc4YTA2/YzE5NTkxM2UxNmFm/LmpwZw" alt="Education for Children">
+            <p>Education is the key to a better future. Donate to help underprivileged children get access to quality education.</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+       
+
+        <div class="kids">
+            <img src="https://media.gettyimages.com/id/671550886/photo/sad-little-girl.jpg?s=612x612&w=0&k=20&c=y7cpm-IRWYgRLY-0zUVELTi9TBag38arUWO-SyUCE8g=" alt="Homeless Children">
+            <p>"Every drop counts. Your support can create ripples of hope."</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="kids">
+            <img src="https://media.gettyimages.com/id/1989858883/photo/sad-girl-toddler-and-teddy-bear-hug-for-childhood-toy-or-love-in-care-support-or-trust-at.jpg?s=612x612&w=0&k=20&c=_RnFa7KJEUTps6Zk-4-EOGS-ib9k4Qs-DmokCldRne8=" alt="Education for Children">
+            <p>"Hunger has no tomorrow. Give today and feed a future."</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+        <div class="kids">
+            <img src="https://imgs.search.brave.com/TLNFL9f_YxdYjhGuVXdlFKxAnC6rIfYsR99PrjJ_vao/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlltSmpNR000/WkdNdFptSTBZUzAw/T1RNM0xUazBPRGN0/WVRSaU9HVmxZV1Uz/WVdVMVhrRXlYa0Zx/Y0dkZVFYVnlOelUx/TnpFM05UZ0AuanBn" alt="Education for Children">
+            <p>"Be the reason someone smiles today. Your donation can change a life.".</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+        <div class="kids">
+            <img src="https://media.gettyimages.com/id/143922546/photo/group-of-african-orphan-children.jpg?s=612x612&w=0&k=20&c=RpKm-4iCJGJ_6ukzmMDxk1lTXhGp7VoYchb_sBLKqtY=" alt="Orphan Children">
+            <p>"Your small contribution can create a big impact!"</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="kids">
+            <img src="https://media.gettyimages.com/id/1144231952/photo/sad-crying-little-girl.jpg?s=612x612&w=0&k=20&c=r56RmoCsCNadwuVMdwNmjUla0ARAW5kiHytkWrMLmvU=" alt="Homeless Children">
+            <p>"The best way to find yourself is to lose yourself in the service of others."</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="kids">
+            <img src="https://media.gettyimages.com/id/182359984/photo/african-baby-girl.jpg?s=612x612&w=0&k=20&c=JNKlJdj9DbqWDlZqe1hTI8G_A169TmwT79ZB9OcypyM=" alt="Education for Children">
+            <p>"A helping hand today builds a better world for tomorrow."</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+    </div>
+    
+    <div class="container">
+        <h3 style="color:rgb(0, 21, 128)">Senior Citizens</h3>
+
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/ffWAIiMek0WElVIf9uqpHZicVt9BlwNULPgmuY5V__o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI1/MzI3Mjg3OC9waG90/by9zZW5pb3ItbWFu/LWxvb2tpbmctb3V0/LW9mLXdpbmRvdy1h/dC1ob21lLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1acllX/NU5pQzY3bVdRaHJ6/WjUtM2FXNERDcVNU/enllX29zN0tWQTZ3/bjkwPQ" alt="Orphan Children">
+            <p>“The best classroom in the world is at the feet of an elderly person.” – Honor their wisdom, support their needs</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/P7un3wBz_6P12cm_vSDjbKCdR4_bXD2-iVNAca6IuP0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA5LzczLzUwLzkw/LzM2MF9GXzk3MzUw/OTA5NF9KSHBIbDZS/a2lZdDd0V0o4Vkl5/dVNsdDdnMFVxUW5E/Ty5qcGc" alt="Homeless Children">
+            <p>“How we treat our elderly is a reflection of our humanity.” – Show kindness, make a difference.</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/qqZx-mqWzIWpARFBuEFmdRg38Qt6C2P2tpp8gc4FAE8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIw/NDU3NTA4Ni9waG90/by93ZWFsdGh5LXNl/bmlvci1jaXRpemVu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1vMGw5M2pxb212/WVhQa1dpQklZa1R4/LVpFdUs1REZUSHFX/TDN0ZGxNcnl3PQ" alt="Education for Children">
+            <p>“No one should have to grow old alone and forgotten.” – Your donation brings warmth and care.</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/GAmEFgjLdQbCQC_2o8vQGWDwZQp_I4e1GGpk8P-mamA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjAw/NTcyNDgzLTAwNC9w/aG90by9zZW5pb3It/YnVzaW5lc3MtbWFu/LWhvbGRpbmctdGlz/c3VlLWNyeWluZy1w/b3J0cmFpdC5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9QnZU/Z01Ta0hVUTliX3cy/RnN3cW1ycE9aUm1J/WnpUYy12VlBYUkdq/S1RxWT0" alt="Orphan Children">
+            <p>"Change begins with <br> you. Every donation brings hope."</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/3Gq3IgPGbyOgLqoNdkXDI4IL13va_uTSfy1SpUGPfGk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3Jpc3dvbGRjYXJl/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNC8wNC9iaWdz/dG9jay1DYW5kaWQt/c2hvdC1vZi1hbi1B/c2lhbi1tYXR1cmUt/NDkwNjk4ODkuanBn" alt="Homeless Children">
+            <p>"Giving is not just about making a donation, it’s about making a difference."</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/tQHX1f1g46nK0ZKm_Pr1lh5ozKJ0Nh2kV5B10Rp1bfQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzY1LzM3LzQz/LzM2MF9GXzI2NTM3/NDM2Ml9Rb1lmZ2dm/aHBXZTFyYXBmbEo5/cmRubFlOalhpMGxD/SC5qcGc" alt="Education for Children">
+            <p>"Be the reason someone believes in goodness. Donate now!"</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/9qMaQ0KEV7Vn0bbtmehaiTtJyLQSGZRdGhHF3SnMYUw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3Jpc3dvbGRjYXJl/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyNC8wNC9zaHV0/dGVyc3RvY2tfNzAx/OTM1NjA2LTEuanBn" alt="Orphan Children">
+            <p>"A little kindness can go <br>a long way. Give <br> from the heart."</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/QQ23-Gtl0kNhCBWZ36Kd23R98RNA8GKWo3W5RPPlhBc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXBhLm9yZy9pbWFn/ZXMvYWdpbmctYWxi/dW0taGVhbHRoLWhv/bWVfdGNtNy0yMjE5/NDYuanBn" alt="Homeless Children">
+            <p>"Together, we can make the world a better place—one donation at a time." – Show kindness, make a difference.</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+        <div class="SeniorCitizens">
+            <img src="https://imgs.search.brave.com/c7i7PYjYuA--aD7nqhP9Z8mBFnYZmNq6B1CgtBralgw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZGlzY292ZXJ5dmls/bGFnZXMuY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIyLzA4/L2NyeWluZy1vbGRl/ci1tYW4tbG9va2lu/Zy10by1za3ktYXNr/aW5nLWZvci1nb2Qt/aGVscC5qcGc" alt="Education for Children">
+            <p>"You have the power to bring hope—donate today!"– Your donation brings warmth and care.</p> 
+            <button class="donate" onclick="scanner()" >Donate</button>
+        </div>
+
+
+
+        <marquee direction="left " bgcolor=" lightgreen ">For more information contact  ph.num: 7416076296       email:saipuneeth2005@gmail.com</marquee>
+    <footer class="footer">
+         <p>&copy; 2025 Fundraising Platform | Created by PUNEETH GUNAPALLI | SRM UNIVERSITY AP </p>
+    </footer>
+
+</body>
+</html>
